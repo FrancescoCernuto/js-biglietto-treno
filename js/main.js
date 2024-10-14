@@ -13,4 +13,6 @@ const tripLength = parseInt(
   
   const underDiscount = 0.8;
   const overDiscount = 0.6;
-  
+
+  if (personAge > 65) ticketPrice *= overDiscount;
+if (personAge < 18) ticketPrice *= underDiscount;
