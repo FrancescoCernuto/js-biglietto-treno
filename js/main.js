@@ -4,4 +4,6 @@ const tripLength = parseInt(
       " "
     )
   );
-  
+  const personAge = parseInt(
+    prompt("Quanti anni hai?", "Es: 27").replace("Es: ", " ")
+  );
