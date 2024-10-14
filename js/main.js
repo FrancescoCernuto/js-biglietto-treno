@@ -11,4 +11,6 @@ const tripLength = parseInt(
   const pricePerKilometer = 0.21;
   let ticketPrice = pricePerKilometer * tripLength;
   
+  const underDiscount = 0.8;
+  const overDiscount = 0.6;
   
